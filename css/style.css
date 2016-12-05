@@ -1,0 +1,111 @@
+.mdl-card {
+  margin-top: 30px;
+  margin-left: 50px;
+  min-height: 573px;
+  float: left;
+  width: 20%;
+}
+
+.all{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+@media screen and (max-width: 1400px){
+  .mdl-card {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 400px;
+  }
+
+  .all{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .mdl-card {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 100%;
+  }
+
+  .all{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+#sign-info {
+  color: #00BCD4;
+  font-size: 120%;
+}
+.demo-avatar{
+  width: 72px;
+  height: 72px;
+}
+
+#user-info {
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-pic {
+  padding:10px;
+
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  height: 400px;
+  overflow: auto;
+}
+ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+ul li:last-child {
+    margin: 0px;
+}
+ul .example-chat-username {
+    margin-right: 10px;
+}
+
+.chatimg{
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px 5px 5px;
+}
+
+.floatR{
+  text-align: right;
+  padding-left: 10px;
+}
+
+.clear:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
